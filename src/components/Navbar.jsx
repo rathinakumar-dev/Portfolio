@@ -81,6 +81,7 @@ const Navbar = () => {
                 {navItems.map((item) => (
                   <button
                     key={item.name}
+                    href={item.href}
                     onClick={() => {
                       setActiveTab(item.name);
                       setIsOpen(false);
