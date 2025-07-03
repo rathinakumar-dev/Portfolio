@@ -6,12 +6,20 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
-import { Mail, Phone, MapPin, Send, CheckCircle, Linkedin, Github } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Send,
+  CheckCircle,
+  Linkedin,
+  Github,
+} from "lucide-react";
 import emailjs from "@emailjs/browser";
 
-const SERVICE_ID = "service_753wise";    
-const TEMPLATE_ID = "template_a4o4kos";  
-const PUBLIC_KEY = "mrQ0hC24EZyHy4PQa";    
+const SERVICE_ID = "service_753wise";
+const TEMPLATE_ID = "template_a4o4kos";
+const PUBLIC_KEY = "mrQ0hC24EZyHy4PQa";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -75,7 +83,7 @@ const ContactSection = () => {
       icon: Mail,
       label: "Email",
       value: "rathinakumar825@gmail.com",
-      href: "mailto: rathinakumar825@gmail.com",
+      href: "mailto:rathinakumar825@gmail.com",
     },
     {
       icon: Phone,
@@ -157,21 +165,20 @@ const ContactSection = () => {
                   </p>
                   <div className="flex space-x-4">
                     <a
-                      href="https://linkedin.com/in/yourprofile"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center text-white transition-colors"
-                    >
-                      <Linkedin className="w-5 h-5" />
-                    </a>
-
-                    <a
-                      href="https://github.com/yourusername"
+                      href="https://github.com/rathinakumar-dev"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-gray-800 hover:bg-gray-900 rounded-lg flex items-center justify-center text-white transition-colors"
                     >
                       <Github className="w-5 h-5" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/rathina-kumar"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center text-white transition-colors"
+                    >
+                      <Linkedin className="w-5 h-5" />
                     </a>
                   </div>
                 </div>

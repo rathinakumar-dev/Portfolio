@@ -240,6 +240,7 @@ const Hero = () => {
               <a
                 href="../assets/Rathinakumar_MERN_Dev.pdf"
                 download="Rathinakumar_MERN_Dev.pdf"
+                target="_blank" 
               >
                 <Button
                   size="lg"
@@ -252,13 +253,15 @@ const Hero = () => {
 
               <a
                 href="https://github.com/rathinakumar-dev"
+                target="_blank" 
                 className="w-11 h-11 flex items-center justify-center rounded-full border shadow-md hover:text-orange-500 transition-colors"
               >
                 <Github className="w-5 h-5" />
               </a>
 
               <a
-                href="https://www.linkedin.com/in/rathina-kumar "
+                href="https://www.linkedin.com/in/rathina-kumar"
+                target="_blank" 
                 className="w-11 h-11 flex items-center justify-center rounded-full border shadow-md hover:text-blue-500 transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
