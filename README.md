@@ -1,12 +1,26 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using **React.js**, **TailwindCSS**, **shadcn/ui**, and **Framer Motion**. It showcases my projects, skills, and experience as a web developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js** – Frontend library for building UI components
+- **Tailwind CSS** – Utility-first CSS framework for responsive and modern styling
+- **shadcn/ui** – Beautiful and accessible UI components built on top of Radix UI
+- **Framer Motion** – Animation library for React for smooth transitions and motion effects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## 🧑‍💻 Features
+
+- Responsive design across all devices 📱💻
+- Dark mode support 🌙
+- Smooth motion animations using **Framer Motion**
+- Professional, accessible UI components from **shadcn/ui**
+- SEO friendly metadata and social preview
+- Contact form with email integration (e.g., EmailJS or Resend)
+
+---
